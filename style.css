@@ -1,0 +1,130 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.236);
+}
+span{
+    color: rgba(255, 166, 0, 0.711);
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    font-size: 17px;
+}
+li{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-right: 15px;
+    margin-top: 20px;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    margin-top: 30px;
+    margin-left: 45px;
+}
+h2{
+ color: orange;
+ font-size: 17px;
+}
+
+img{
+    height: 399px;
+}
+article{
+    float: right;
+}
+section{
+    float: left;
+    font-size: 18px;
+    width: 50%;
+    margin-left: 30px;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;  
+}
+p{
+    font-size: 54px ;
+}
+#Lorem{
+    font-size: 12px;
+    color: black;
+}
+
+button{
+    width: 120px;
+    background-color: orangered;
+    color: white;
+    border: solid white;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 15px;
+    text-decoration: none;
+   position: absolute;
+}
+button:hover{
+    cursor: pointer;
+    
+    transition: 0.5s;
+}
+    @media screen and (max-width: 800px) {
+        *{
+            margin: 0;
+            padding: 0;
+        }
+               
+        main{
+            margin-left: 50px ;
+        }
+        img{
+            display: none;
+        }
+         header{
+            box-shadow: none;
+         }
+        ul{
+            height: 50px;
+            font-size: 15px;
+        }
+    
+        body{
+            margin: auto; 
+            width: 100vw;
+        }
+        h1{
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            font-size: large;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        li{
+            padding: 10px;
+        }
+        button{
+           width: 60%;
+        }
+    }
+    
